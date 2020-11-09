@@ -1,0 +1,19 @@
+log_level: DEBUG
+
+search_params:
+    search_keywords:
+        - python scrapy
+    locations:
+        - remote
+    sub_keywords:
+        - python
+        - web scraping
+        - pandas
+        - scrapy
+    radius: 50
+
+file_config:
+    file_name: python_scrapy
+    file_type: CSV
+    item_limit: 25
+    compact: False
