@@ -1,1 +1,8 @@
-venv
+venv/
+.idea/
+__pycache__/
+docs.md
+output/
+spiders/__pycache__/
+spiders/indeed/__pycache__/
+utilities/__pycache__/
