@@ -3,6 +3,7 @@ Job Collector is a project I made to help me while I hunt for a job. Built using
 \*\*Possibility of IP being blocked, especially if used, not as it was intended. I accept no responsibility if that were to happen.\*\*
 ## Usage
 1. Clone the repository onto your local machine.
+2. Install the required python modules. `pip install -r requirements.txt`
 2. Run through the config.yaml file and make any necessary changes to the settings.
 3. Run the main.py file and wait for the program to finish running.
 4. You should now see a folder labeled "output." You will find the completed files in that folder.
