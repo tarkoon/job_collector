@@ -8,11 +8,10 @@ Job Collector is a project I made to help me while I hunt for a job. Built using
 4. You should now see a folder labeled "output." You will find the completed files in that folder.
 ***
 ## Configuring Job Collector
-### Search Parameters
 > #### Log Level
 > It is used to change the output when the job collector is running.
 > ACCEPTED VALUES: CRITICAL, ERROR, WARNING, INFO, DEBUG
-
+### Search Parameters
 > #### Search Keywords
 > A list of main keywords that the job collector uses to search by.
 > If null, the job collector will grab all jobs it can find in the specified location.
