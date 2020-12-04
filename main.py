@@ -15,6 +15,7 @@ process = CrawlerProcess(
         "USER_AGENT": UserAgent().random,
         "LOG_LEVEL": config.LOG_LEVEL,
         "CLOSESPIDER_ITEMCOUNT": config.ITEM_LIMIT,
+        "CONCURRENT_ITEMS": 5,
         "ITEM_PIPELINES": {
             "spiders.indeed.indeed_pipeline.IndeedPipeLine": 300,
         },

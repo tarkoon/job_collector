@@ -2,14 +2,10 @@ from pathlib import Path
 
 
 def create_folder(folder_name: str):
-
-    if folder_name is None:
-        return Path().absolute()
-
     folder_path = Path(folder_name)
     if not folder_path.exists():
         folder_path.mkdir()
-    return folder_path.absolute()
+    return folder_path
 
 
 def file_name_gen(file_name: str, ext_flag: str, output_folder: str = "output") -> str:
