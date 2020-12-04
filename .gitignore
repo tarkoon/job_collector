@@ -6,3 +6,4 @@ output/
 spiders/__pycache__/
 spiders/indeed/__pycache__/
 utilities/__pycache__/
+config.yaml
